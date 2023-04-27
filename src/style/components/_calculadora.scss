@@ -1,0 +1,17 @@
+.contenedor-calculadora {
+    width: 40rem;
+    height: 60rem;
+    padding: 1.4rem;
+    background-color: #292733;
+    border-radius: 2%;
+    border: 2px solid white;
+    box-shadow: 8px 7px 10px 1px #1c1c1c;
+}
+
+.fila {
+    margin: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+}

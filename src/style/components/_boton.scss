@@ -1,0 +1,48 @@
+.boton-contenedor {
+    height: 8.3rem;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: $bold;
+    font-size: 3rem;
+    background-color: #6D5D6E;
+    color: white;
+    border-radius: 10%;
+    border: 1px solid white;
+    cursor: pointer;
+    user-select: none;
+    gap: 1rem;
+
+    &:hover{
+        background-color: rgba(109, 93, 110, 0.7)
+    }
+}
+
+.operador{
+    background: #4F4557;
+
+    &:hover{
+        filter: brightness(1.5);
+    }
+}
+
+.boton-clear {
+    height: 7rem;
+    font-size: 3rem;
+    display: flex;
+    flex: 1;
+    background-color: rgb(210, 129, 129);
+    margin: .8rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: $bold;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+
+    &:hover{
+        background-color: rgba(210, 129, 129, 0.9)
+    }
+}

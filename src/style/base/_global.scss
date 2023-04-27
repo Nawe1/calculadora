@@ -1,0 +1,71 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    background: $bg-color;
+
+    &.body-scroll {
+        padding-top: 28.8px;
+    }
+    
+}
+
+p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img,picture {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    color: white;
+    font-size: 3.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 0;
+}
+
+h4 {
+    font-size: 2.6rem;
+}

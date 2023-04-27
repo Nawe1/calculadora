@@ -1,0 +1,13 @@
+.App{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;   
+}
+
+.titulo-contenedor {
+    text-align: center;
+}
